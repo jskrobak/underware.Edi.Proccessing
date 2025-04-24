@@ -8,11 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\underware.Edifact\src\underware.Edifact\underware.Edifact.csproj" />
-      <ProjectReference Include="..\..\underware.Inhouse\src\underware.Inhouse\underware.Inhouse.csproj" />
-      <ProjectReference Include="..\..\underware.VDA\src\underware.VDA\underware.VDA.csproj" />
-      <ProjectReference Include="..\..\underware.XmlBiztalk\src\underware.XmlBiztalk\underware.XmlBiztalk.csproj" />
-      <ProjectReference Include="..\..\underware.XmlECOD\src\underware.XmlECOD\underware.XmlECOD.csproj" />
+      <ProjectReference Include="..\underware.Edi.Common\src\underware.Edi.Common.csproj" />
+      <ProjectReference Include="..\underware.Edifact\src\underware.Edifact\underware.Edifact.csproj" />
+      <ProjectReference Include="..\underware.Inhouse\underware.Inhouse.csproj" />
+      <ProjectReference Include="..\underware.OrionInhouse\underware.OrionInhouse.csproj" />
+      <ProjectReference Include="..\underware.VDA\src\underware.VDA\underware.VDA.csproj" />
+      <ProjectReference Include="..\underware.XmlBiztalk\underware.XmlBiztalk.csproj" />
+      <ProjectReference Include="..\underware.XmlECOD\underware.XmlECOD.csproj" />
     </ItemGroup>
 
 </Project>
